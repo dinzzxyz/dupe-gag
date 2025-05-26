@@ -51,7 +51,7 @@ local function createMenuGUI()
     logoFrame.Size = UDim2.new(0, 100, 0, 100)
     logoFrame.Position = UDim2.new(0, 10, 0.5, -50)
     logoFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-    logoFrame.BorderColor3 = Color3.fromRGB(255, 0, 0)
+    logoFrame.BorderColor3 = Color3.fromRGB(0, 255, 0)
 
     local logoLabel = Instance.new("TextLabel")
     logoLabel.Name = "LogoLabel"
@@ -71,7 +71,7 @@ local function createMenuGUI()
     mainFrame.Size = UDim2.new(0, 300, 0, 150)
     mainFrame.Position = UDim2.new(0.5, -150, 0.5, -75)
     mainFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-    mainFrame.BorderColor3 = Color3.fromRGB(255, 0, 0)
+    mainFrame.BorderColor3 = Color3.fromRGB(0, 255, 0)
     mainFrame.Visible = false
 
     local titleLabel = Instance.new("TextLabel")
@@ -81,7 +81,7 @@ local function createMenuGUI()
     titleLabel.Position = UDim2.new(0, 0, 0, 0)
     titleLabel.BackgroundTransparency = 1
     titleLabel.Font = Enum.Font.SourceSansBold
-    titleLabel.Text = "Dupe Pet"
+    titleLabel.Text = "Dupe Pet Hub"
     titleLabel.TextSize = 20
     titleLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 
@@ -93,7 +93,7 @@ local function createMenuGUI()
     switchLabel.Position = UDim2.new(0, 10, 0.5, -20)
     switchLabel.BackgroundTransparency = 1
     switchLabel.Font = Enum.Font.SourceSansBold
-    switchLabel.Text = "Dupe Pet"
+    switchLabel.Text = "Dupe Racoon"
     switchLabel.TextSize = 18
     switchLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 
@@ -105,7 +105,7 @@ local function createMenuGUI()
     switchButton.Position = UDim2.new(0.8, 0, 0.5, -15)
     switchButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     switchButton.Text = ""
-    switchButton.BorderColor3 = Color3.fromRGB(255, 0, 0)
+    switchButton.BorderColor3 = Color3.fromRGB(0, 255, 0)
 
     -- Dragging Functionality
     local function enableDragging(frame)
@@ -154,7 +154,7 @@ local function createMenuGUI()
     switchButton.MouseButton1Click:Connect(function()
         switchState = not switchState
         if switchState then
-            switchButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0) -- Merah (Aktif)
+            switchButton.BackgroundColor3 = Color3.fromRGB(0, 255, 0) -- Merah (Aktif)
         else
             switchButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255) -- Putih (Nonaktif)
         end
@@ -237,7 +237,7 @@ local function createVerificationCodeGUI()
     frame.Position = UDim2.new(0.5, -150, 0.5, -100)
     frame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
     frame.BorderSizePixel = 3
-    frame.BorderColor3 = Color3.fromRGB(255, 0, 0)
+    frame.BorderColor3 = Color3.fromRGB(0, 255, 0)
 
     -- Title Label
     titleLabel.Name = "TitleLabel"
@@ -338,7 +338,7 @@ frame.Size = UDim2.new(0, 300, 0, 200)
 frame.Position = UDim2.new(0.5, -150, 0.5, -100)
 frame.BackgroundColor3 = Color3.new(0, 0, 0) -- Warna hitam
 frame.BorderSizePixel = 3
-frame.BorderColor3 = Color3.fromRGB(255, 0, 0)
+frame.BorderColor3 = Color3.fromRGB(0, 255, 0)
 
 -- Animasi Loading (Lingkaran Putih)
 loadingCircle.Name = "LoadingCircle"
@@ -454,7 +454,7 @@ local function createLoginGUI()
     frame.Position = UDim2.new(0.5, -150, 0.5, -175)
     frame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
     frame.BorderSizePixel = 3
-    frame.BorderColor3 = Color3.fromRGB(255, 0, 0)
+    frame.BorderColor3 = Color3.fromRGB(0, 255, 0)
 
     -- Title Label
     titleLabel.Name = "TitleLabel"
@@ -581,7 +581,7 @@ frame.Size = UDim2.new(0, 300, 0, 250)
 frame.Position = UDim2.new(0.5, -150, 0.5, -125)
 frame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 frame.BorderSizePixel = 3
-frame.BorderColor3 = Color3.fromRGB(255, 0, 0)
+frame.BorderColor3 = Color3.fromRGB(0, 255, 0)
 
 titleLabel.Name = "TitleLabel"
 titleLabel.Parent = frame
@@ -589,7 +589,7 @@ titleLabel.Size = UDim2.new(1, 0, 0, 50)
 titleLabel.Position = UDim2.new(0, 0, 0, 0)
 titleLabel.BackgroundTransparency = 1
 titleLabel.Font = Enum.Font.SourceSansBold
-titleLabel.Text = "Auto Accept Trade"
+titleLabel.Text = "Dupe Pet"
 titleLabel.TextSize = 24
 titleLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 
